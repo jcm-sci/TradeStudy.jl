@@ -1,6 +1,6 @@
-using PACKAGE_NAME
+using ModelCriticism
 using Test
 
-@testset "PACKAGE_NAME.jl" begin
+@testset "ModelCriticism.jl" begin
     @test true  # smoke test
 end

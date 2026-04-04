@@ -1,5 +1,5 @@
-name = "PACKAGE_NAME"
-uuid = "00000000-0000-0000-0000-000000000000"
+name = "ModelCriticism"
+uuid = "591160b1-14da-46d3-9030-6b05f6e62482"
 authors = ["Joshua C. Macdonald <jmacdo16@jh.edu>"]
 version = "0.1.0"
 
