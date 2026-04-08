@@ -1,6 +1,6 @@
-using ModelCriticism
+using TradeStudy
 using Test
 
-@testset "ModelCriticism.jl" begin
+@testset "TradeStudy.jl" begin
     @test true  # smoke test
 end

@@ -1,4 +1,4 @@
-module ModelCriticism
+module TradeStudy
 
 # TODO: exports
 

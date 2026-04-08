@@ -1,18 +1,18 @@
-# ModelCriticism.jl
+# TradeStudy.jl
 
 [![jcm-sci](https://img.shields.io/badge/jcm--sci-jcmacdonald.dev-blue)](https://jcmacdonald.dev/software/)
 
-Observable-based model evaluation, Pareto optimization, and Bayesian stacking
-for scientific model criticism.
+Multi-objective trade-study orchestration: scoring, Pareto optimization,
+and Bayesian stacking for scientific model evaluation.
 
 ## Overview
 
-`ModelCriticism.jl` provides a structured framework for evaluating scientific
+`TradeStudy.jl` provides a structured framework for evaluating scientific
 simulation models against data via observable-based scoring, multi-objective
 Pareto optimization, and Bayesian model stacking.
 
 This is the Julia implementation of the
-[model-criticism](https://github.com/jcm-sci/model-criticism) framework (Python).
+[trade-study](https://github.com/jcm-sci/trade-study) framework (Python).
 
 ## Status
 
@@ -22,7 +22,7 @@ This is the Julia implementation of the
 
 | Package | Description |
 |---------|-------------|
-| [model-criticism](https://github.com/jcm-sci/model-criticism) | Python implementation of this same framework |
+| [trade-study](https://github.com/jcm-sci/trade-study) | Python implementation of this same framework |
 | [OpEngine.jl](https://github.com/jcm-sci/OpEngine.jl) | Operator-partitioned solver (planned consumer) |
 | [OpSystem.jl](https://github.com/jcm-sci/OpSystem.jl) | System specification compiler (planned consumer) |
 
@@ -30,7 +30,7 @@ This is the Julia implementation of the
 
 ```julia
 using Pkg
-Pkg.add("ModelCriticism")
+Pkg.add("TradeStudy")
 ```
 
 ## Development
