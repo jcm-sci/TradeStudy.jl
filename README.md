@@ -1,37 +1,24 @@
 # TradeStudy.jl
 
-[![jcm-sci](https://img.shields.io/badge/jcm--sci-jcmacdonald.dev-blue)](https://jcmacdonald.dev/software/)
+[![jcm-sci](https://img.shields.io/badge/jcm--sci-jcmacdonald.dev-blue)](https://jcmacdonald.dev/projects/)
 
-Multi-objective trade-study orchestration: scoring, Pareto optimization,
-and Bayesian stacking for scientific model evaluation.
+> [!IMPORTANT]
+> **Inactive design scaffold.** This repository does not currently provide a
+> usable Julia package or public API. Its source module and tests are
+> placeholders, and the package is not registered in Julia's General registry.
 
-## Overview
+## Current implementation
 
-`TradeStudy.jl` provides a structured framework for evaluating scientific
-simulation models against data via observable-based scoring, multi-objective
-Pareto optimization, and Bayesian model stacking.
+The maintained implementation is the Python
+[trade-study](https://github.com/jcm-sci/trade-study) package. It is released
+on [PyPI](https://pypi.org/project/trade-study/) and documented at
+[jcm-sci.github.io/trade-study](https://jcm-sci.github.io/trade-study/).
 
-This is the Julia implementation of the
-[trade-study](https://github.com/jcm-sci/trade-study) framework (Python).
+## Repository purpose
 
-## Status
-
-**Pre-alpha.** API is being designed.
-
-## Related Packages
-
-| Package | Description |
-|---------|-------------|
-| [trade-study](https://github.com/jcm-sci/trade-study) | Python implementation of this same framework |
-| [OpEngine.jl](https://github.com/jcm-sci/OpEngine.jl) | Operator-partitioned solver (planned consumer) |
-| [OpSystem.jl](https://github.com/jcm-sci/OpSystem.jl) | System specification compiler (planned consumer) |
-
-## Installation
-
-```julia
-using Pkg
-Pkg.add("TradeStudy")
-```
+This repository is retained as a possible starting point for a future Julia
+port. There is no active development timeline. Do not depend on it for
+research or production work.
 
 ## Development
 
